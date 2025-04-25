@@ -9,3 +9,5 @@ Host github-personal
     HostName github.com
     User git
     IdentityFile ~/.ssh/id_rsa_personal
+
+Then, clone repositories using the appropriate host alias (e.g., git@github-work:username/repo.git).
