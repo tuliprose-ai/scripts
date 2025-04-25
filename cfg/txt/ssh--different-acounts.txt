@@ -1,0 +1,11 @@
+Use SSH Keys for Different Accounts: If you're using SSH for authentication, you can create separate SSH keys for each account and configure them in your SSH config file (~/.ssh/config):
+
+Host github-work
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_work
+
+Host github-personal
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_personal
